@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dialogs">
+      <UniqueIdentifier>{12901608-a9e5-40f0-8086-e2efb14c3c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dialogs">
+      <UniqueIdentifier>{b43889b3-91fd-45c0-8da4-ce2fa1fec70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\datastruct">
+      <UniqueIdentifier>{ede50345-1d8c-4907-9367-ba53fa8e2304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datastruct">
+      <UniqueIdentifier>{4e2e3cf7-4daf-4a04-adf1-58db31800ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screen">
+      <UniqueIdentifier>{3e5eaef7-bb72-44c3-973c-45a0fc67900c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screen">
+      <UniqueIdentifier>{b3ce953f-5d88-4ab4-a34d-b3d22b7abd0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlib1211">
+      <UniqueIdentifier>{c0388803-cce3-476c-bb7c-2693e52f9bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zlib1211">
+      <UniqueIdentifier>{7b1716a8-f37f-4527-97cf-c7cdef3c503c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XYSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tomato_coder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\tomato_common.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\tomato_screen.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs\tomato_logon.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="screen\screen.cpp">
+      <Filter>Source Files\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="tomato.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xypagebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\compress.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\deflate.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\infback.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inffast.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inflate.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inftrees.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\uncompr.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\ztrees.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\zutil.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\XYSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xytypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xyannounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tomato_coder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs\tomato_common.h">
+      <Filter>Header Files\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs\tomato_screen.h">
+      <Filter>Header Files\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs\tomato_logon.h">
+      <Filter>Header Files\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="screen\screen.h">
+      <Filter>Header Files\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="tomato.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xypagebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\deflate.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inffast.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inflate.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inftrees.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zconf.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zlib.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\ztrees.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zutil.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

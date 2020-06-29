@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\zlib1211">
+      <UniqueIdentifier>{1d135227-b291-4ff9-9230-a241a1d74784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlib1211">
+      <UniqueIdentifier>{1b1467c8-8727-4d65-93f0-c02d49e2e5ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\XYSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tomato_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tomato_coder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\compress.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\deflate.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\infback.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inffast.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inflate.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\inftrees.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\uncompr.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\ztrees.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib1211\zutil.c">
+      <Filter>Source Files\zlib1211</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xypagebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\XYSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tomato_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xyannounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xytypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tomato_coder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\deflate.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inffast.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inflate.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\inftrees.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zconf.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zlib.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\ztrees.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib1211\zutil.h">
+      <Filter>Header Files\zlib1211</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xypagebuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
